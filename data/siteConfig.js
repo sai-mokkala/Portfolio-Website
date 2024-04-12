@@ -8,18 +8,17 @@ module.exports = {
   authorAvatar: '/images/ava1.jpg',
   authorDescription: `
     I'm passionate about building softwares.
-    Experienced in building, maintenance of web & mobile, cloud applications. Implemented CI/CD pipelines for cloud and local machines. Used Docker, Kubernetes, GIT and Jenkins in automation, orchestration of applications. 
+    Experienced in architecting, building and maintenance of web & mobile, cloud applications. Used Docker, Kubernetes in automation, orchestration of applications. 
 
   
   `,
 
   authorskills: `
-  <b>Programming Skills</b>: Java, C, Python, C#, C++, SQL, R, Pig, Hive <br />
-    <b>Web Development</b>: PHP, HTML, CSS, JavaScript, ReactJS, MongoDB, JSON, Bootstrap, Node.js, WordPress, Laravel <br />
-    <b>Software Skills and Framework </b>: Windows, Linux, Eclipse, Android Studio, Spring Boot, React Native, Hadoop Map-Reduce, Scala, Kafka, Sqoop <br/>
-    <b> Development Methodologies</b>: Agile/Scrum, Waterfall  </br>
-    <b>Software Testing</b>: JUnit, JaCoCo, PITMutation, Jenkins, Selenium Automation </br>
-    <b> Tools: </b> Google Cloud Platform, Kubernetes, CI/CD pipelines, JIRA, Vscode, AWS, Docker, Terraform, GIT
+  <b>Backend and Databases</b>: C#, Java, JavaScript, Python, SQL, NoSQL, Cassandra <br />
+    <b>Frontend and Mobile</b>: Angular, ReactJS, TypeScript, Material UI, React Native, CSS,Bootstrap, Node.js<br />
+    <b>Software Skills and Framework </b>: Spring, .NET,Spark, Hadoop Map-Reduce, Hive, Kafka, Sqoop<br/>
+    <b>Software Testing</b>: xUnit, Karma, JUnit, JaCoCo, PITMutation</br>
+    <b>Tools: </b> Azure, Google Cloud Platform, Kubernetes, CI/CD pipelines, Vscode, AWS, Docker, Terraform
   
 `,
   skills: [
@@ -62,7 +61,28 @@ module.exports = {
     /* more skills here */
   ],
   jobs: [
-    /* more jobs here */
+      /* more jobs here */
+      {
+          company: "KION, Holland, USA",
+          begin: {
+              month: 'Jan',
+              year: '2022'
+          },
+          duration: '2.4 yr- till Today',
+          occupation: "Senior Full Stack Software Engineer",
+          description: " Implemented the infrastructure required for deploying the software artifacts of KION. Used SignalR and REST APIs for the communication to backend. Used ElectronJs for building desktop application residing on the customer machine.•	Developed the UI using ReactJS in frontend for tracking the loads, transports of AGVs in fleet management. Also, backend involved the application service and DAO layers in Spring framework. Used Junit and Mockito for testing "
+      },
+      {
+          company: "AmplifAI, Dallas, USA",
+          begin: {
+              month: 'Oct',
+              year: '2021'
+          },
+          duration: '4 months- Jan 2022',
+          occupation: "Full Stack Software Developer",
+          description: "Implemented the performance management system that maximizes contact center performance for front line workers of various tenants with  use of ReactJS in frontend, backend involved ASP.NET MVC architecture for REST APIs.It also involved getting the management of structured and unstructured data from SQL and NoSQL databases like CosmosDB.Used schedulers like Airflow for converting them to required attributes of machine learning teams"
+      },
+
     {
       company: "Office of Information Technology - University of Texas, Arlington",
       begin: {
@@ -71,7 +91,7 @@ module.exports = {
       },
       duration: '2 yr- till May 2021',
       occupation: "Full Stack Developer",
-      description: " Responsible for adding new features to enhance user experience using ReactJS in front-end and Node.js for back-end, developed REST API services for UTA employees. Implemented orchestration with Kubernetes, CI/CD pipelines for applications using Gitlab."
+        description: " Implemented the UI with ReactJS for managing the infrastructure of the course systems. Backend involves managing the selection of courses, grade management, etc. in Spring. Also worked for CTEDD department in upgrading UI interfaces"
     },
       {
       company: "Nexgenux technologies",
@@ -80,8 +100,8 @@ module.exports = {
         year: '2018'
       },
       duration: '1 yr- till Dec 2018',
-      occupation: "Software Developer",
-      description: " Performed algorithmic development in Java with modules in Spring MVC architecture and interaction with Hibernate for database mapping, integrated Kafka for data ingestion and acceleration of extracting data, tested in Junit, PIT Mutation and Selenium. Designed and implemented the REST API services for back-end, used Maven for project management. Used GIT for source code version control and integrated with Jenkins for CI/CD pipelines. Created docker images and orchestrated with kubernetes. Implemented cloud storage backup environment using AWS storage services."
+      occupation: "Software Engineer",
+          description: " Implemented the multiple tenant backend systems involving the inventory management and tracking of shopping orders for different tenants in Spring. Also involved writing the component testing end-to-end from controllers to DAO layers"
     }, {
       company: "Johnson Controls",
       begin: {
@@ -90,7 +110,7 @@ module.exports = {
       },
       duration: '3 months - till Jul 2017',
       occupation: "Software Engineer Intern",
-      description: " Worked on code optimization and maintenance of dynamic website using ReactJS in front-end and Firebase in back-end. Implemented Bug fixation and decreased code redundancy by 5%."
+          description: " Created POC for the internal tool for their insights system. Used firebase for the database layer."
     
      
   
